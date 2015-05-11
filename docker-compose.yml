@@ -1,0 +1,6 @@
+web:
+  image: ianneub/swagger-ui
+  environment:
+    - "URL=http://petstore.swagger.io/v2/swagger.json"
+  ports:
+    - '80:80'
